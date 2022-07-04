@@ -1,4 +1,5 @@
 
+
 const BMI_HEADS = document.querySelectorAll('.bmi-head');
 const BMI_USC = document.getElementById('bmi-usc');
 const BMI_SI = document.getElementById('bmi-si');
@@ -70,7 +71,7 @@ function getUserInput(){
         gender = document.querySelector('#bmi-usc input[name = "gender"]:checked').value,
         heightFeet = document.getElementById('feet').value,
         heightInches = document.getElementById('inches').value,
-        weightPounds = document.getElementById('kg').value;
+        weightPounds = document.getElementById('pounds').value;
         
         status = checkInputStatus([age, heightFeet, heightInches, weightPounds]);
 
